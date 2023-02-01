@@ -33,37 +33,44 @@ a {
     color: #b0b3b8;
 }
 
-/* .fas {
-    border: 1px solid #f33e58;
-} */
-
-.flex {
-    font-size: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+ul {
     list-style-type: none;
 }
 
-/* ul li {
-    padding: 0 20px;
-} */
 
 .left-nav {
     flex: 25%;
-    border: 1px solid #f3ef1d;
+}
+
+.left-side-nav {
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .middle-nav {
     width: 100%;
-    border: 1px solid #1d65f3;
     flex: 50%;
     display: flex;
+    font-size: 25px;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .right-nav {
     flex: 25%;
-    border: 1px solid red;
+    display: flex;
+}
+
+.right-side-nav {
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .side-pic {
