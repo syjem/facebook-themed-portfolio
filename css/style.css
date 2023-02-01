@@ -19,12 +19,13 @@ body {
 
 .header {
     background-color: #242526;
-    padding: 20px 10px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
     top: 0;
+    gap: 30px;
 }
 
 a {
@@ -32,18 +33,37 @@ a {
     color: #b0b3b8;
 }
 
+/* .fas {
+    border: 1px solid #f33e58;
+} */
+
 .flex {
     font-size: 25px;
     display: flex;
     flex-direction: row;
-}
-
-ul {
+    justify-content: space-between;
     list-style-type: none;
 }
 
-ul li {
-    padding: 0 25px;
+/* ul li {
+    padding: 0 20px;
+} */
+
+.left-nav {
+    flex: 25%;
+    border: 1px solid #f3ef1d;
+}
+
+.middle-nav {
+    width: 100%;
+    border: 1px solid #1d65f3;
+    flex: 50%;
+    display: flex;
+}
+
+.right-nav {
+    flex: 25%;
+    border: 1px solid red;
 }
 
 .side-pic {
@@ -154,7 +174,7 @@ hr {
     flex: 50%;
     width: 100%;
     margin: 30px 20px;
-    gap: 20px;
+    row-gap: 20px;
     display: flex;
     flex-direction: column;
 }
