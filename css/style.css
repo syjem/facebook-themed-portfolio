@@ -294,6 +294,27 @@ hr {
     
 }
 
+.reactions {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.react {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    border: 1px solid red;
+    width: 50%;
+
+}
+
+.engagements {
+    display: flex;
+
+}
+
 
 
 
