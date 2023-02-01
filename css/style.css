@@ -318,13 +318,19 @@ hr {
 
 .engagements {
     display: flex;
-
 }
 
 .react-wrapper {
     display: flex;
 }
 
+.million {
+    padding-left: 5px;
+}
+
+.million:hover {
+    text-decoration: underline;
+}
 
 
 .lower {
