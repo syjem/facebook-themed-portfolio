@@ -103,6 +103,7 @@ img {
 .img-container {
     width: 50%;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .pic-square {
