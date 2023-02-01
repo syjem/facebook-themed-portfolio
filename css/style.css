@@ -247,6 +247,7 @@ hr {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    gap: 10px;
 }
 
 .user-profile {
@@ -282,6 +283,15 @@ hr {
     margin-bottom: 10px;
 }
 
+.photos {
+    display: flex;
+    gap: 5px;
+}
+
+.wanda {
+    width: 200px;
+    
+}
 
 
 
