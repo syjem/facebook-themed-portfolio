@@ -82,9 +82,83 @@ img {
     gap: 10px;
 }
 
+/*Main Profile */
+
 .profile {
-    flex: 30%; 
+    flex: 30%;
+    padding: 20px;
+    margin: 10px;
 }
+
+.info {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: #b0b3b8;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.img-container {
+    width: 50%;
+    margin: auto;
+}
+
+.pic-square {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+hr {
+    width: 95%;
+    margin: auto;
+}
+
+.basic-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px;
+}
+.info-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main {
     flex: 50%;
