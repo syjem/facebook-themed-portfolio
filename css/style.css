@@ -122,6 +122,9 @@ ul li {
 hr {
     width: 90%;
     margin: auto;
+    color: rgb(173, 171, 202);
+    opacity: 0.1;
+    border-style: solid;
 }
 
 .basic-info {
@@ -249,6 +252,7 @@ hr {
 .user-profile {
     display: flex;
     margin-bottom: 10px;
+    gap: 10px;
 }
 
 .profile-pic {
@@ -257,13 +261,26 @@ hr {
     border-radius: 50%;
 }
 
-p {
+.users-info {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.caption {
     color:  white;
 }
 
+.mins {
+    color: #9c9fa1;
+    font-size: 14px;
+}
 
-
-
+.hr-news {
+    width: 100%;
+    margin-bottom: 10px;
+}
 
 
 
