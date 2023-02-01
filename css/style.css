@@ -11,6 +11,8 @@ body {
     background-color: #18191a;
 }
 
+/* HEADER */
+
 .header {
     background-color: #242526;
     padding: 20px 10px;
@@ -69,4 +71,24 @@ img {
 
 .fa-square-github {
     color: #e78585;
+}
+
+
+/* MAIN */
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.profile {
+    flex: 30%; 
+}
+
+.main {
+    flex: 50%;
+}
+
+.side {
+    flex: 20%;
 }
