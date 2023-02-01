@@ -111,6 +111,7 @@ ul {
     display: flex;
     gap: 10px;
     margin-top: 80px;
+    border: 1px solid red;
 }
 
 /*Main Profile */
@@ -120,6 +121,7 @@ ul {
     margin: 30px 0 30px 20px;
     display: flex;
     flex-direction: column;
+    border: 1px solid royalblue;
 }
 
 .info {
@@ -180,7 +182,7 @@ hr {
 .main-content {
     flex: 50%;
     width: 100%;
-    margin: 30px 20px;
+    margin: 30px 0;
     row-gap: 20px;
     display: flex;
     flex-direction: column;
@@ -418,4 +420,20 @@ hr {
 
 .side {
     flex: 25%;
+    border: 1px solid royalblue;
+    margin: 30px 20px 30px 0;
+}
+
+.friend-req {
+    background-color: var(--box-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.zoro {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
 }
