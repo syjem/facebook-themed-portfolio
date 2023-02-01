@@ -333,6 +333,30 @@ hr {
     padding-left: 10px;
 }
 
+.lower:hover {
+    cursor: pointer;
+    background-color: #3a3b3c;
+}
+
+.down {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.down:hover {
+    cursor: pointer;
+    background-color: #3a3b3c;
+}
+
+/* 
+.link {
+    border: 1px solid #f33e58;
+} */
+
 .react-pic {
     width: 25px;
     height: 25px;
@@ -346,16 +370,6 @@ hr {
     color: rgb(219, 213, 213);
     padding: 10px 0;
 }
-.down {
-    gap: 5px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 40px;
-    padding: 0 10px;
-}
-
-
 
 
 
