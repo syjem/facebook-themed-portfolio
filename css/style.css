@@ -18,6 +18,11 @@ body {
     justify-content: space-between;
 }
 
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
 ul {
     list-style-type: none;
 }
