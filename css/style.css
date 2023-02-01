@@ -240,6 +240,7 @@ hr {
 .news-feed {
     background-color: #242526;
     display: flex;
+    padding: 10px;
 
 }
 
@@ -281,7 +282,6 @@ hr {
 
 .hr-news {
     width: 100%;
-    margin-bottom: 10px;
 }
 
 .photos {
@@ -299,7 +299,6 @@ hr {
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    padding: 10px;
     justify-content: space-between;
 }
 
@@ -319,6 +318,7 @@ hr {
 
 .react-wrapper {
     display: flex;
+    /* border: 1px solid white; */
 }
 
 .new {
