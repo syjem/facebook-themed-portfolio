@@ -12,10 +12,13 @@ body {
 
 .header {
     background-color: #242526;
-    color: #b0b3b8;
     padding: 20px 10px;
     display: flex;
     justify-content: space-between;
+}
+
+a {
+    color: #b0b3b8;
 }
 
 .flex {
