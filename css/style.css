@@ -305,16 +305,31 @@ hr {
 
 .react {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 15px;
-    border: 1px solid red;
-    width: 50%;
+    width: 100%;
+
 
 }
 
 .engagements {
     display: flex;
 
+}
+
+.react-wrapper {
+    display: flex;
+}
+
+.new {
+    padding: 10px;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
 }
 
 
