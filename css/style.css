@@ -304,6 +304,7 @@ hr {
     gap: 10px;
     width: 100%;
     justify-content: space-between;
+    border: 1px solid #1d65f3;
 }
 
 .react {
@@ -322,19 +323,36 @@ hr {
 
 .react-wrapper {
     display: flex;
-    /* border: 1px solid white; */
+    border: 1px solid #1d65f3;
 }
 
-.new {
-    padding: 10px;
+
+
+.lower {
+    padding-top: 10px;
     color: rgb(219, 213, 213);
+    border: 1px solid #1d65f3;
 }
 
+.react-pic {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    flex: 50%;
+    margin-top: 5px;
+}
+
+.caret {
+    flex: 50%;
+    color: rgb(219, 213, 213);
+    padding: 10px 0;
+}
 .down {
+    gap: 5px;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 5px;
+    height: 40px;
 }
 
 
