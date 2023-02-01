@@ -9,3 +9,21 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.header {
+    background-color: #242526;
+    color: #b0b3b8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
