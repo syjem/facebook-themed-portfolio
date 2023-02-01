@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root {
+    --box-color: #242526;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -87,6 +91,8 @@ ul li {
 .profile {
     flex: 30%;
     margin: 30px 0 30px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .info {
@@ -96,7 +102,7 @@ ul li {
     text-align: center;
     width: 100%;
     flex-direction: column;
-    background-color: #b0b3b8;
+    background-color: var(--box-color);
     padding: 10px;
 }
 
@@ -146,6 +152,9 @@ hr {
     flex: 50%;
     width: 100%;
     margin: 30px 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .post {
@@ -154,7 +163,7 @@ hr {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    background-color: #b0b3b8;
+    background-color: var(--box-color);
     padding: 20px;
     width: 100%;
 }
