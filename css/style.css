@@ -190,11 +190,14 @@ hr {
 
 .add-icons {
     flex: 100%;
-    font-size: 20px;
-    color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+ .add-icons a {
+    font-size: 20px;
+    color: red;
 }
 
 .share {
