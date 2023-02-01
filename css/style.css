@@ -60,10 +60,6 @@ ul li {
     color: #4e86db;
 }
 
-.fa-square-instagram {
-    color: rgb(223, 34, 144);
-}
-
 .fa-telegram {
     color: #53bae2;
 }
@@ -73,7 +69,7 @@ ul li {
 }
 
 .fa-square-youtube {
-    color: rgb(238, 7, 7);
+    color: #f33e58;
 }
 
 .fa-square-github {
@@ -141,7 +137,6 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 
 
@@ -220,7 +215,7 @@ hr {
 
  .add-icons a {
     font-size: 20px;
-    color: red;
+    color: #f33e58;
 }
 
 .share {
@@ -315,6 +310,10 @@ hr {
 
 .react span {
     padding: 10px;
+}
+
+.red, i.red {
+    color: #f33e58;
 }
 
 .engagements {
