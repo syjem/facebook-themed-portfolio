@@ -48,9 +48,13 @@ img {
 }
 
 .fa-square-twitter {
-    color: #5587eb;
+    color: #4e86db;
 }
 
 .fa-square-instagram {
     color: rgb(223, 34, 144);
+}
+
+.fa-telegram {
+    color: #53bae2;
 }
