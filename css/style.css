@@ -89,7 +89,7 @@ ul li {
 /*Main Profile */
 
 .profile {
-    flex: 30%;
+    flex: 25%;
     margin: 30px 0 30px 20px;
     display: flex;
     flex-direction: column;
@@ -107,7 +107,7 @@ ul li {
 }
 
 .img-container {
-    width: 50%;
+    width: 70%;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -309,5 +309,5 @@ hr {
 
 
 .side {
-    flex: 20%;
+    flex: 25%;
 }
