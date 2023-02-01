@@ -197,6 +197,20 @@ hr {
     align-items: center;
 }
 
+.share {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-text {
+    color: black;
+    font-weight: 750;
+}
 
 
 
