@@ -182,9 +182,15 @@ hr {
 }
 
 .add-options {
-    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
     padding-top: 5px;
     margin-top: 10px;
+}
+
+.add-icons {
+    flex: 100%;
+    font-size: 20px;
     color: white;
     display: flex;
     justify-content: space-evenly;
