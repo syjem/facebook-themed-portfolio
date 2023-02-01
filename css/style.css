@@ -304,7 +304,6 @@ hr {
     gap: 10px;
     width: 100%;
     justify-content: space-between;
-    border: 1px solid #1d65f3;
 }
 
 .react {
@@ -312,8 +311,10 @@ hr {
     justify-content: space-evenly;
     font-size: 15px;
     width: 100%;
+}
 
-
+.react span {
+    padding: 10px;
 }
 
 .engagements {
@@ -323,7 +324,6 @@ hr {
 
 .react-wrapper {
     display: flex;
-    border: 1px solid #1d65f3;
 }
 
 
@@ -331,7 +331,7 @@ hr {
 .lower {
     padding-top: 10px;
     color: rgb(219, 213, 213);
-    border: 1px solid #1d65f3;
+    padding-left: 10px;
 }
 
 .react-pic {
@@ -353,6 +353,7 @@ hr {
     justify-content: center;
     text-align: center;
     height: 40px;
+    padding: 0 10px;
 }
 
 
