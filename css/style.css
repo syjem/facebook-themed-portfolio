@@ -38,7 +38,7 @@ textarea:hover {
     position: fixed;
     width: 100%;
     top: 0;
-    gap: 30px;
+    gap: 10px;
 }
 
 a {
@@ -50,18 +50,17 @@ ul {
     list-style-type: none;
 }
 
-
 .left-nav {
     flex: 25%;
-    display: flex;
-    justify-content: flex-start;
+    width: 100%;
 }
 
-.left-side-nav {
-    width: 75%;
-    font-size: 25px;
-    display: flex;
-    justify-content: space-around;
+.nav-h2 a {
+    color: red;
+}
+
+.h2-container {
+    align-self: flex-start;
 }
 
 .middle-nav {
@@ -72,6 +71,7 @@ ul {
 }
 
 .main-nav {
+
     width: 100%;
     display: flex;
     justify-content: space-between;
