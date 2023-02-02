@@ -534,13 +534,13 @@ hr {
     background-color: #4888db;
 }
 
-.decline-btn {
+.delete-btn {
     border: none;
     padding: 10px 30px;
     background-color: #545657;
 }
 
-.decline-btn:hover {
+.delete-btn:hover {
     cursor: pointer;
     background-color: #707274;
 }
