@@ -171,6 +171,14 @@ hr {
     gap: 20px;
 }
 
+.h2-name {
+    font-weight: 500;
+}
+
+.fw {
+    font-weight: 300;
+}
+
 
 .label {
     display: flex;
@@ -179,6 +187,31 @@ hr {
     gap: 16px;
 
 }
+
+.education {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px;
+}
+
+.educ {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.fa-graduation-cap {
+    padding: 0 10px 0 0;
+}
+
+
+
+
+
+
+
 
 /* Main Content */
 
