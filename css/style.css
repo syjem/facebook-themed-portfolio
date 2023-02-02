@@ -169,6 +169,9 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: start;
+    width: 100%;
+    font-size: 17px;
 }
 
 .h2-name {
@@ -179,13 +182,8 @@ hr {
     font-weight: 300;
 }
 
-
-.label {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-
+.pr {
+    padding-right: 10px;
 }
 
 .education {
