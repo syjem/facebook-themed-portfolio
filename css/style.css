@@ -534,6 +534,10 @@ hr {
     color: #53bae2; 
 }
 
+.user, .username {
+    font-weight: 400;
+}
+
 .user:hover {
     text-decoration: underline;
 }
