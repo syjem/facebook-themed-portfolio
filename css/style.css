@@ -500,3 +500,7 @@ hr {
     color: #53bae2; 
 }
 
+.user:hover {
+    text-decoration: underline;
+}
+
