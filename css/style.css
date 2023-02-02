@@ -474,8 +474,18 @@ hr {
     background-color: #2374e1;
 }
 
+.accept-btn:hover {
+    cursor: pointer;
+    background-color: #4888db;
+}
+
 .decline-btn {
     border: none;
     padding: 10px 30px;
-    background-color: #3a3b3c;
+    background-color: #545657;
+}
+
+.decline-btn:hover {
+    cursor: pointer;
+    background-color: #707274;
 }
