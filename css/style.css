@@ -123,6 +123,7 @@ ul {
     flex: 25%;
     margin: 30px 0 30px 20px;
     display: flex;
+    row-gap: 10px;
     flex-direction: column;
 }
 
