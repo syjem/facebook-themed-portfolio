@@ -217,7 +217,16 @@ hr {
     padding: 0 10px 0 0;
 }
 
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px;
+}
 
+.hobby {
+    padding-right: 10px;
+}
 
 
 
