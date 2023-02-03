@@ -591,6 +591,7 @@ hr {
     border: none;
     padding: 10px 30px;
     background-color: #2374e1;
+    border-radius: 5px;
 }
 
 .accept-btn:hover {
@@ -602,6 +603,7 @@ hr {
     border: none;
     padding: 10px 30px;
     background-color: #545657;
+    border-radius: 5px;
 }
 
 .delete-btn:hover {
