@@ -238,9 +238,17 @@ hr {
 }
 
 .bg-c {
-    background-color: #3a3b3c;
+    background-color: #EB455F;
     padding: 10px;
     border-radius: 5px;
+}
+
+.music {
+    background-color: #FF0032;
+}
+
+.anime {
+    background-color: #F94A29;
 }
 
 .photos-header {
