@@ -273,6 +273,7 @@ hr {
 .mini {
     width: 90px;
     height: 90px;
+    transition: opacity 0.3s all;
 }
 
 .mini:hover {
