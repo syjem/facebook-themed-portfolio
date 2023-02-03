@@ -241,6 +241,35 @@ hr {
     padding: 10px;
 }
 
+.photos-header {
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.photos-header a {
+    color: #e4e6eb;
+}
+
+.photos-header a .pho:hover{
+    text-decoration: underline;
+}
+
+.photos-header a .bl:hover {
+    background-color: #a3a1a1;
+}
+
+.pho {
+    padding: 10px;
+}
+
+.bl {
+    padding: 10px;
+    color: #4599ff;
+    border-radius: 5px;
+}
+
 .mini {
     width: 90px;
     height: 90px;
