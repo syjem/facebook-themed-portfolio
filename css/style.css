@@ -225,7 +225,6 @@ hr {
 }
 
 .hobbies-container {
-    border: 1px solid red;
     flex-wrap: wrap;
     display: flex;
     text-align: start;
