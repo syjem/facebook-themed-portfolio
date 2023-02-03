@@ -275,6 +275,11 @@ hr {
     height: 90px;
 }
 
+.mini:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
 
 
 
