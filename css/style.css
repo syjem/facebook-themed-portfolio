@@ -224,8 +224,22 @@ hr {
     padding: 10px;
 }
 
-.hobby {
+.hobbies-container {
+    border: 1px solid red;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.hobby-heart {
     padding-right: 10px;
+}
+
+.bg-c {
+    background-color: #3a3b3c;
+    padding: 10px;
 }
 
 
