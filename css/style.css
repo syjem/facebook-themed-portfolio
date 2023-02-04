@@ -96,6 +96,19 @@ ul {
     border-radius: 50%;
 }
 
+.active {
+    color: #FF0032;
+}
+
+.bg {
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.bg:hover {
+    background-color: #58595a;
+}
+
 .fa-square-facebook {
     color: #1d65f3;
 }
