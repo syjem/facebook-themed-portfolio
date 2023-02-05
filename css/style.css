@@ -97,6 +97,10 @@ ul {
     margin-top: 2px;
 }
 
+.side-pic:hover {
+    opacity: 0.8;
+}
+
 .active {
     background-color: blue;
   }
@@ -115,6 +119,10 @@ ul {
     background-color: #373738;
     padding: 12px;
     border-radius: 50%;
+}
+
+.nav-side:hover {
+    background-color: #4c4c4d;
 }
 
 /* #img {
