@@ -141,11 +141,11 @@ ul {
     text-align: center;
     border-radius: 6px;
     position: absolute;
-    padding: 5px;
+    padding: 5px 10px;
     z-index: 1;
     bottom: 1px;
     opacity: 0.5;
-    right: 199px;
+    right: 195px;
     visibility: hidden;
 }
 
@@ -206,10 +206,10 @@ ul {
     text-align: center;
     border-radius: 6px;
     position: absolute;
-    padding: 5px;
+    padding: 5px 10px;
     z-index: 1;
     bottom: 1px;
-    right: 26px;
+    right: 20px;
     opacity: 0.5;
     visibility: hidden;
 }
