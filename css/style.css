@@ -261,9 +261,13 @@ ul {
     display: flex;
     row-gap: 10px;
     flex-direction: column;
-    border: 1px solid red;
     height: 100%;
     overflow: auto;
+}
+
+.stop-scroll {
+    position: fixed;
+    bottom: 0;
 }
 
 .info {
@@ -275,6 +279,7 @@ ul {
     flex-direction: column;
     background-color: var(--box-color);
     padding: 10px;
+    height: 100%;
 }
 
 .img-container {
@@ -428,11 +433,6 @@ hr {
 
 .yellow {
     color: #fdc451;
-}
-
-.stop-scroll {
-    position: fixed;
-    bottom: 0;
 }
 
 
