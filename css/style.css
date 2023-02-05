@@ -395,10 +395,19 @@ hr {
     margin-top: 10px;
 }
 
+.add-opt {
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.add-opt:hover {
+    background-color: #373738;
+}
+
 .add-icons {
     flex: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
