@@ -148,7 +148,7 @@ ul {
     visibility: hidden;
 }
 
-#bell:hover .tooltip {
+#bell:hover .tooltip-bell {
     visibility: visible;
 }
 
