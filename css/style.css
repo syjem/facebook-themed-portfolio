@@ -32,15 +32,21 @@ textarea:hover {
 
 .header {
     background-color: #242526;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
     top: 0;
     gap: 10px;
+    height: max-content;
 }
 
+#jem {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 a {
     text-decoration: none;
     color: #b0b3b8;
@@ -53,6 +59,7 @@ ul {
 .left-nav {
     flex: 25%;
     width: 100%;
+    padding-top: 10px;
 }
 
 .nav-h2 a {
