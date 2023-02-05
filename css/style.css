@@ -132,6 +132,26 @@ ul {
     background-color: #4c4c4d;
 }
 
+.tooltip-bell {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    background-color: #fcf6f6;
+    color: #0a0a0a;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    padding: 5px;
+    z-index: 1;
+    bottom: -10px;
+    right: 40px;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+#bell:hover .tooltip {
+    visibility: visible;
+}
+
 /* #img {
     margin-top: 12px;
 } */
