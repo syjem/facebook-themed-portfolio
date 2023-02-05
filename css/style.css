@@ -95,10 +95,18 @@ ul {
     position: absolute;
     padding: 5px 10px;
     z-index: 1;
-    bottom: 1px;
+    bottom: -5px;
     opacity: 0.5;
 }
 
+.tooltip-facebook {
+    left: 370px;
+    visibility: hidden;
+}
+
+#Facebook:hover .tooltip-facebook {
+    visibility: visible;
+}
 
 
 
