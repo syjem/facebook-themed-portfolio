@@ -640,6 +640,7 @@ hr {
     text-align: center;
     height: 40px;
     padding: 0 10px;
+    border-radius: 5px;
 }
 
 .down:hover {
