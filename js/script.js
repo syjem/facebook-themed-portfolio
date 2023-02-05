@@ -9,3 +9,16 @@ for (var i = 0; i < links.length; i++) {
     this.className += " active";
   });
 }
+
+
+// Stop Scrolling
+
+$(document).ready(function() {
+  $("#aside-left").scroll(function() {
+    if ($("#aside-left").scrollTop() + $("#aside-left").innerHeight() >= $("aside-left")[0].scrollHeight) {
+      $("#aside-left").addClass("stop-scroll");
+    } else {
+      $("#aside-left").removeClass("stop-scroll");
+    }
+  });
+});
