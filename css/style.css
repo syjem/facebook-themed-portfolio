@@ -39,7 +39,7 @@ textarea:hover {
     width: 100%;
     top: 0;
     gap: 10px;
-    height: max-content;
+    height: 90px;
 }
 
 #jem {
@@ -255,12 +255,15 @@ ul {
 
 /*Main Profile */
 
-.profile {
+#aside-left {
     flex: 25%;
     margin: 30px 0 30px 20px;
     display: flex;
     row-gap: 10px;
     flex-direction: column;
+    border: 1px solid red;
+    height: 100%;
+    overflow: auto;
 }
 
 .info {
@@ -427,7 +430,10 @@ hr {
     color: #fdc451;
 }
 
-
+.stop-scroll {
+    position: fixed;
+    bottom: 0;
+}
 
 
 /* Main Content */
