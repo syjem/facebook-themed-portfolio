@@ -239,10 +239,6 @@ ul {
     color: rgb(0, 204, 255);
 }
 
-#youtube:hover, #youtube:active {
-    color: #f33e58;
-}
-
 #github:hover, #github:active {
     color: #e78585;
 }
