@@ -97,11 +97,11 @@ ul {
 }
 
 .active {
-    color: #FF0032;
+    background-color: #58595a;
 }
 
 .bg {
-    padding: 10px 40px;
+    padding: 12px 40px;
     border-radius: 5px;
 }
 
@@ -109,27 +109,27 @@ ul {
     background-color: #58595a;
 }
 
-.fa-square-facebook {
+.fa-square-facebook:hover {
     color: #1d65f3;
 }
 
-.fa-square-twitter {
+.fa-square-twitter:hover {
     color: #4e86db;
 }
 
-.fa-telegram {
+.fa-telegram:hover {
     color: #53bae2;
 }
 
-.fa-linkedin {
+.fa-linkedin:hover {
     color: rgb(0, 204, 255);
 }
 
-.fa-square-youtube {
+.fa-square-youtube:hover {
     color: #f33e58;
 }
 
-.fa-square-github {
+.fa-square-github:hover {
     color: #e78585;
 }
 
