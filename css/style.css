@@ -85,15 +85,16 @@ ul {
 
 .right-side-nav {
     width: 70%;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     justify-content: space-around;
 }
 
 .side-pic {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    margin-top: 2px;
 }
 
 .active {
@@ -102,13 +103,24 @@ ul {
 
 .bg {
     padding: 12px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s;
 }
 
 .bg:hover {
     background-color: #373738;
 }
+
+.nav-side {
+    background-color: #373738;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+/* #img {
+    margin-top: 12px;
+} */
+
 
 #facebook:hover, #facebook:active {
     color: #1d65f3;
