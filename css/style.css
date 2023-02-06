@@ -567,11 +567,6 @@ hr {
     color:  white;
 }
 
-.mins {
-    color: #9c9fa1;
-    font-size: 14px;
-}
-
 .hr-news {
     width: 100%;
 }
@@ -589,8 +584,23 @@ hr {
     width: 33.33%;
 }
 
+.video {
+    width: 100%;
+    height: 500px;
+}
+
 .kim {
     width: 50%;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+} 
+
+.hacker {
+    width: 100%;
+    height: 500px;
 }
 
 .blue {
@@ -603,16 +613,6 @@ hr {
 
 .user:hover {
     text-decoration: underline;
-}
-
-.hero {
-    width: 100%;
-    height: 500px;
-} 
-
-.video {
-    width: 100%;
-    height: 500px;
 }
 
 .fa-earth-americas {
