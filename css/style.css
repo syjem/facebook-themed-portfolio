@@ -616,13 +616,14 @@ hr {
 }
 
 .fa-earth-americas {
-    margin-left: 2px;
+    margin-left: 3px;
 }
 
 .dot {
     position: relative;
-    bottom: 5px;
-    margin-left: 2px;
+    bottom: 4px;
+    margin-left: 3px;
+    color: white;
 }
 
 .ellipsis {
