@@ -636,9 +636,11 @@ hr {
 }
 
 .fa-circle-check {
-    color: rgb(45, 45, 231);
+    color: rgb(45, 163, 231);
+    position: relative;
+    bottom: 2.5px;
     margin-left: 5px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .metrics {
