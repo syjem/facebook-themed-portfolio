@@ -625,6 +625,15 @@ hr {
     margin-left: 2px;
 }
 
+.ellipsis {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.ellipsis:hover {
+    background-color: #353738;
+}
+
 
 
 
