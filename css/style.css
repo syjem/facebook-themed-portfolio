@@ -634,6 +634,11 @@ hr {
     background-color: #353738;
 }
 
+.fa-circle-check {
+    color: rgb(45, 45, 231);
+    margin-left: 5px;
+    font-size: 13px;
+}
 
 
 
