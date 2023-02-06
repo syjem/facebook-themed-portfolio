@@ -615,6 +615,15 @@ hr {
     height: 500px;
 }
 
+.fa-earth-africa {
+    margin-left: 2px;
+}
+
+.dot {
+    position: relative;
+    bottom: 5px;
+    margin-left: 2px;
+}
 
 
 
