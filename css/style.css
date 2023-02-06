@@ -640,7 +640,10 @@ hr {
     font-size: 13px;
 }
 
-
+.metrics {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
