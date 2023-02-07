@@ -485,7 +485,6 @@ hr {
 
 .add-options {
     display: flex;
-    justify-content: space-between;
     padding-top: 5px;
     margin-top: 10px;
 }
@@ -512,20 +511,15 @@ hr {
 }
 
 .share {
-    padding: 10px 15px;
+    padding: 12px 20px;
     border-radius: 10px;
     border: none;
     text-transform: uppercase;
     background-color: orange;
-    color: black;
+    font-weight: 500;
     cursor: pointer;
+    color: #0a0a0a;
 }
-
-.btn-text {
-    color: black;
-    font-weight: 750;
-}
-
 
 /* News feed */
 
