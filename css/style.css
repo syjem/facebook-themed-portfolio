@@ -635,6 +635,8 @@ hr {
     bottom: 2.5px;
     margin-left: 5px;
     font-size: 12px;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .metrics {
