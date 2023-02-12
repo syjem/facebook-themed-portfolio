@@ -40,6 +40,7 @@ textarea:hover {
     top: 0;
     gap: 10px;
     height: 90px;
+    z-index: 1;
 }
 
 #jem {
