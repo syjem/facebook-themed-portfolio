@@ -604,6 +604,7 @@ hr {
 
 .user, .username {
     font-weight: 400;
+    color: rgb(240, 235, 235);
 }
 
 .user:hover {
