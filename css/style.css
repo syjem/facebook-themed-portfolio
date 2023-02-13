@@ -284,16 +284,14 @@ ul {
 }
 
 .img-container {
-    width: 70%;
-    margin: auto;
-    margin-bottom: 10px;
+    width: 60%;
+    margin: 15px auto;
 }
 
 .pic-square {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    padding: 10px;
 }
 
 hr {
