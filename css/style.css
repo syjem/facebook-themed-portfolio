@@ -145,7 +145,7 @@ ul {
     padding: 5px 10px;
     z-index: 1;
     bottom: -5px;
-    opacity: 0.5;
+    opacity: 0.8;
     right: 195px;
     visibility: hidden;
 }
@@ -166,7 +166,7 @@ ul {
     padding: 5px;
     z-index: 1;
     bottom: -5px;
-    opacity: 0.5;
+    opacity: 0.8;
     right: 129px;
     visibility: hidden;
 }
@@ -190,7 +190,7 @@ ul {
     z-index: 1;
     bottom: -5px;
     right: 65px;
-    opacity: 0.5;
+    opacity: 0.8;
     visibility: hidden;
 }
 
@@ -211,7 +211,7 @@ ul {
     z-index: 1;
     bottom: -5px;
     right: 20px;
-    opacity: 0.5;
+    opacity: 0.8;
     visibility: hidden;
 }
 
