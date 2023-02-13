@@ -142,11 +142,11 @@ ul {
     text-align: center;
     border-radius: 6px;
     position: absolute;
-    padding: 5px 10px;
+    padding: 10px 15px;
     z-index: 1;
-    bottom: -5px;
-    opacity: 0.8;
-    right: 195px;
+    bottom: -15px;
+    opacity: 0.7;
+    right: 190px;
     visibility: hidden;
 }
 
@@ -163,11 +163,11 @@ ul {
     text-align: center;
     border-radius: 6px;
     position: absolute;
-    padding: 5px;
+    padding: 10px;
     z-index: 1;
-    bottom: -5px;
-    opacity: 0.8;
-    right: 129px;
+    bottom: -15px;
+    opacity: 0.7;
+    right: 120px;
     visibility: hidden;
 }
 
@@ -186,11 +186,11 @@ ul {
     text-align: center;
     border-radius: 6px;
     position: absolute;
-    padding: 5px;
+    padding: 10px;
     z-index: 1;
-    bottom: -5px;
-    right: 65px;
-    opacity: 0.8;
+    bottom: -15px;
+    right: 57px;
+    opacity: 0.7;
     visibility: hidden;
 }
 
@@ -207,11 +207,11 @@ ul {
     text-align: center;
     border-radius: 6px;
     position: absolute;
-    padding: 5px 10px;
+    padding: 10px 15px;
     z-index: 1;
-    bottom: -5px;
-    right: 20px;
-    opacity: 0.8;
+    bottom: -15px;
+    right: 15px;
+    opacity: 0.7;
     visibility: hidden;
 }
 
