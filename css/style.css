@@ -43,22 +43,6 @@ textarea:hover {
     z-index: 1;
 }
 
-#fb_logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
-#fb_btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-}
-
-
-
 a {
     text-decoration: none;
     color: #b0b3b8;
@@ -74,12 +58,50 @@ ul {
     padding-top: 5px;
 }
 
-.nav-h2 a {
-    color: red;
+.logo_search {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.h2-container {
-    align-self: flex-start;
+#fb_logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#fb_btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    padding: 13px 0 13px 13px;
+    color: #e4e6eb;
+    background-color: #3a3b3c;
+    margin-left: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#search {
+    padding: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 70%;
+    color: #e4e6eb;
+    background-color: #3a3b3c;
+    border: none;  
+}
+
+textarea::placeholder, input::placeholder {
+    color: #e4e6eb;
+}
+
+input:focus, textarea:focus {
+    outline: none;
 }
 
 .middle-nav {
