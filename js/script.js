@@ -32,7 +32,7 @@ window.onload = function() {
     const htmlBody = document.querySelector("body");
 
     const randomFunction = function() {
-    const colors = ["#FFB84C", "#F16767", "#A459D1", "#EB455F", "#B4E4FF", "#F0A04B", "#EA8FEA"];
+    const colors = ["#2B3467", "#4D455D", "#635985", "#443C68", "#393053", "#332C39", "#393E46"];
 
     const randomIndex = Math.floor(Math.random() * colors.length);
     const randomColor = colors[randomIndex];
