@@ -78,8 +78,8 @@ ul {
 }
 
 .fa-magnifying-glass {
-    padding: 13px 0 13px 13px;
-    color: #e4e6eb;
+    padding: 14px 0 13px 13px;
+    color: #adafb4;
     background-color: #3a3b3c;
     margin-left: 10px;
     border-bottom-left-radius: 50px;
@@ -97,7 +97,7 @@ ul {
 }
 
 textarea::placeholder, input::placeholder {
-    color: #e4e6eb;
+    color: #adafb4;
 }
 
 input:focus, textarea:focus {
