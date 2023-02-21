@@ -46,3 +46,23 @@ window.onload = function() {
 }
 
 
+// Change the search icon when clicked
+
+window.onload = function() {
+  
+  const searchInput = document.getElementById("search");
+  const searchIcon = document.getElementById("icon_search");
+
+  searchInput.addEventListener('focus', function() {
+    searchIcon.classList.remove("fa-magnifying-glass");
+    searchIcon.classList.add("fa-arrow-left");
+  });
+
+  searchInput.addEventListener("blur", function() {
+    // Add the search icon and remove the arrow left icon
+    searchIcon.classList.add("fa-magnifying-glass");
+    searchIcon.classList.remove("fa-arrow-left");
+  });
+}
+
+
