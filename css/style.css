@@ -740,6 +740,12 @@ hr {
 
 .engagements {
     display: flex;
+    font-size: 14px;
+}
+
+.ml {
+    margin-left: 5px;
+    font-size: 13px;
 }
 
 .react-wrapper {
@@ -748,6 +754,7 @@ hr {
 
 .million {
     padding-left: 5px;
+    font-size: 14px;
 }
 
 .million:hover {
