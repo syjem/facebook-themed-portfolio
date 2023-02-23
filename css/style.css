@@ -412,14 +412,11 @@ hr {
     gap: 10px;
 }
 
-.hobby-heart {
-    padding-right: 10px;
-    font-size: 19px;
-}
+
 
 .bg-c {
     background-color: #EB455F;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 
