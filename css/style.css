@@ -748,6 +748,10 @@ hr {
     font-size: 13px;
 }
 
+.ml:hover {
+    text-decoration: underline;
+}
+
 .react-wrapper {
     display: flex;
 }
@@ -760,6 +764,11 @@ hr {
 .million:hover {
     text-decoration: underline;
 }
+
+a.million span:hover + i {
+    text-decoration: underline;
+  }
+
 
 
 .lower {
