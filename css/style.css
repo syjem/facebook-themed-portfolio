@@ -96,6 +96,10 @@ textarea::placeholder, input::placeholder {
     color: #adafb4;
 }
 
+textarea::placeholder {
+    font-size: 15px;
+}
+
 input:focus, textarea:focus {
     outline: none;
 }
