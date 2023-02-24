@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --box-color: #242526;
+    --box-border-rad: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #18191a;
+}
+
+/* Search History Modals */
+
+#search-history-box {
+    position: fixed;
+    display: none;
+    background-color: var(--box-color);
+    width: 342px;
+    height: 420px;
+    top: 72px;
+    left: 0;
+    padding: 5px;
+}
+
+.search-history-infos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-history-heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.search-heading {
+    color: #e4e6eb;
+    font-weight: 400;
+    padding: 7px;
+}
+
+#edit {
+    color: rgb(212, 57, 204);
+    font-weight: 100;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#edit:hover {
+    background-color: #2b2d2e;
+    cursor: pointer;
+}
+
+.search-history {
+    width: 100%;
+    padding: 5px;
+}
+
+.search-personalities {
+    width: 100%;
+    display: flex;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+
+.search-personalities:hover {
+    background-color: #2b2d2e;
+    cursor: pointer;
+}
+ 
+.search-infos-box {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.search-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.search-name, .search-friend {
+    color: beige;
+    font-weight: 200;
+}
+
+.search-name {
+    padding-top: 3px;
+}
+
+.search-friend {
+    font-size: 12px;
+    color: rgb(172, 172, 164);
+}
+
+.x-mark-box {
+    display: flex;
+    justify-content: center;
+}
+
+.x-mark {
+    color: rgb(187, 187, 170);
+    font-size: 25px;
+    width: 100%;
+    padding: 0 7px;
+    margin: auto auto;
+    border-radius: 50%;
+}
+
+.x-mark:hover {
+    background-color: #383a3b;
+    cursor: pointer;
+}
