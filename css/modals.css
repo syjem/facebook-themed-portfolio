@@ -23,7 +23,7 @@ body {
     display: none;
     background-color: var(--box-color);
     width: 342px;
-    height: 420px;
+    height: 450px;
     top: 72px;
     left: 0;
     padding: 5px;
@@ -63,7 +63,7 @@ body {
 
 .search-history {
     width: 100%;
-    padding: 5px;
+    padding: 0 5px 5px 5px;
 }
 
 .search-personalities {
