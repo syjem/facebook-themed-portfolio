@@ -21,12 +21,14 @@ body {
 #search-history-box {
     position: fixed;
     display: none;
-    background-color: var(--box-color);
+    background-color: #2c2e30;
     width: 342px;
     height: 450px;
-    top: 72px;
+    top: 80px;
     left: 0;
     padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .search-history-infos {
@@ -57,7 +59,7 @@ body {
 }
 
 #edit:hover {
-    background-color: #2b2d2e;
+    background-color: #343738;
     cursor: pointer;
 }
 
@@ -74,7 +76,7 @@ body {
 }
 
 .search-personalities:hover {
-    background-color: #2b2d2e;
+    background-color: #343738;
     cursor: pointer;
 }
  
@@ -119,6 +121,6 @@ body {
 }
 
 .x-mark:hover {
-    background-color: #383a3b;
+    background-color: #454849;
     cursor: pointer;
 }
