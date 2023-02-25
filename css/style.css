@@ -635,12 +635,17 @@ hr {
     color: #53bae2; 
 }
 
-.user, .username {
+.username {
     font-weight: 400;
     color: rgb(240, 235, 235);
 }
 
-.user:hover {
+.user a {
+    font-weight: 400;
+    color: rgb(228, 230, 235);
+}
+
+.user a:hover {
     text-decoration: underline;
 }
 
@@ -772,11 +777,6 @@ hr {
     cursor: pointer;
     background-color: #3a3b3c;
 }
-
-/* 
-.link {
-    border: 1px solid #f33e58;
-} */
 
 .react-pic {
     width: 25px;
