@@ -658,12 +658,14 @@ hr {
     color: white;
 }
 
-.ellipsis {
+.fa-ellipsis {
     padding: 10px;
     border-radius: 50%;
+    cursor: pointer;
+    color: rgb(228, 230, 235);
 }
 
-.ellipsis:hover {
+.fa-ellipsis:hover {
     background-color: #353738;
 }
 
