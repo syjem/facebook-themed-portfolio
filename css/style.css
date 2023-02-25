@@ -487,7 +487,7 @@ hr {
     width: 100%;
 }
 
-.larger-pic {
+.small-main-pic {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -530,25 +530,22 @@ hr {
     margin-top: 10px;
 }
 
-.add-opt {
-    padding: 10px 40px;
-    border-radius: 10px;
-}
-
-.add-opt:hover {
-    background-color: #373738;
-}
-
 .add-icons {
     flex: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
- .add-icons a {
+.add-opt {
+    padding: 10px 40px;
+    border-radius: 10px;
     font-size: 20px;
     color: #f33e58;
+    cursor: pointer;
+}
+
+.add-opt:hover {
+    background-color: #373738;
 }
 
 .share {
