@@ -5,6 +5,7 @@ window.onload = function() {
 
     const changeBtn = document.getElementById("fb_btn");
     const htmlBody = document.querySelector("body");
+    const postBtn = document.getElementById("share");
 
     const randomFunction = function() {
     const colors = ["#EB455F", "#FF7B54", "#D3756B", "#FEA1BF", "#C92C6D", "#D61355", "#CB1C8D"];
@@ -13,6 +14,30 @@ window.onload = function() {
     const randomColor = colors[randomIndex];
 
     htmlBody.style.backgroundColor = randomColor;
+
+   switch(randomColor) {
+    case "#EB455F":
+      postBtn.style.backgroundColor = "#EB455F";
+      break;
+    case "#FF7B54":
+      postBtn.style.backgroundColor = "#FF7B54";
+      break;
+    case "#D3756B":
+      postBtn.style.backgroundColor = "#D3756B";
+      break;
+    case "#FEA1BF":
+      postBtn.style.backgroundColor = "#FEA1BF";
+      break;
+    case "#C92C6D":
+      postBtn.style.backgroundColor = "#C92C6D";
+      break;
+    case "#D61355":
+      postBtn.style.backgroundColor =  "#D61355";
+      break;
+    case "#CB1C8D":
+      postBtn.style.backgroundColor =  "#CB1C8D";
+      break;
+   }
 
   }
 
