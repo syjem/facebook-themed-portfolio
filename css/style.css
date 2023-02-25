@@ -74,10 +74,6 @@ ul {
     border-top-left-radius: 50px;
 }
 
-/* .fa-arrow-left:hover {
-    background-color: #4c4c4d;
-} */
-
 .fa-arrow-left {
     cursor: pointer;
 }
@@ -143,15 +139,12 @@ input[type="search"]::-webkit-search-decoration {
     height: 40px;
     border-radius: 50%;
     margin-top: 2px;
+    cursor: pointer;
 }
 
 .side-pic:hover {
     opacity: 0.8;
 }
-
-.active {
-    background-color: blue;
-  }
 
 .bg {
     padding: 12px 40px;
@@ -167,6 +160,8 @@ input[type="search"]::-webkit-search-decoration {
     background-color: #373738;
     padding: 12px;
     border-radius: 50%;
+    color: rgb(228, 230, 235);
+    cursor: pointer;
 }
 
 .nav-side:hover {
