@@ -1,4 +1,7 @@
 
+
+// Search History Modal
+
 $(function() {
     $("#search").on("focus", function() {
         setTimeout(function() {
