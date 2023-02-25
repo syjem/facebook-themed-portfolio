@@ -1,10 +1,14 @@
 
 $(function() {
     $("#search").on("focus", function() {
-        $("#search-history-box").show();
+        setTimeout(function() {
+            $("#search-history-box").show();
+        }, 200);
     });
     $("#search").on("blur", function() {
-        $("#search-history-box").hide();
+        setTimeout(function() {
+            $("#search-history-box").hide();
+        }, 100);
     });
 });
 
