@@ -5,10 +5,11 @@ $(function() {
             $("#search-history-box").show();
         }, 200);
     });
-    $("#search").on("blur", function() {
-        setTimeout(function() {
-            $("#search-history-box").hide();
-        }, 100);
+    $(document).on("click", function(event) {
+        let modal = $("#search-history-box");
+        if(!modal.is(event.target) && modal.has(event.target).length === 0) {
+            modal.hide();
+        }
     });
 });
 
