@@ -25,7 +25,12 @@ $(function() {
 
     // Mini images modal
     $(".mini").on("click", function() {
-        
+
     });
+
+
+
+    // Add a border to post button
+    $("#share").css("border", "1px solid #054453")
 });
 
