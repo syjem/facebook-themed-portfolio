@@ -8,7 +8,7 @@ window.onload = function() {
     const postBtn = document.getElementById("share");
 
     const randomFunction = function() {
-    const colors = ["#EB455F", "#FF7B54", "#D3756B", "#FEA1BF", "#C92C6D", "#D61355", "#CB1C8D"];
+    const colors = ["#EB455F", "#FF7B54", "#D3756B", "#FEA1BF", "#C92C6D", "#D61355", "#CB1C8D", "#18191a"];
 
     const randomIndex = Math.floor(Math.random() * colors.length);
     const randomColor = colors[randomIndex];
@@ -36,6 +36,9 @@ window.onload = function() {
       break;
     case "#CB1C8D":
       postBtn.style.backgroundColor =  "#CB1C8D";
+      break;
+    case "#18191a":
+      postBtn.style.backgroundColor = "#23bbe1";
       break;
    }
 
