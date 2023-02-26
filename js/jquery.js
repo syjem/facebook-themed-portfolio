@@ -1,8 +1,10 @@
 
 
-// Search History Modal
+
 
 $(function() {
+
+    // Search History Modal
     $("#search").on("focus", function() {
         setTimeout(function() {
             $("#search-history-box").show();
@@ -14,5 +16,11 @@ $(function() {
             modal.hide();
         }
     });
+
+
+
+    // All images set to un-draggable
+
+    $('img').attr('draggable', 'false');
 });
 
