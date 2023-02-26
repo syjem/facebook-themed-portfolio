@@ -20,7 +20,12 @@ $(function() {
 
 
     // All images set to un-draggable
-
     $('img').attr('draggable', 'false');
+
+
+    // Mini images modal
+    $(".mini").on("click", function() {
+        
+    });
 });
 
