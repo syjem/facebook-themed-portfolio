@@ -353,16 +353,16 @@ hr {
     font-size: 17px;
 }
 
-.h2-name {
+.main-name {
     font-weight: 500;
 }
 
-.h2-name a {
+.main-name a {
     color: rgb(228, 230, 235);
-    border-bottom: 2px solid #4d3538;
+    border-bottom: 2px solid #38292b;
 }
 
-.h2-name a:hover {
+.main-name a:hover {
     border: none;
 }
 
