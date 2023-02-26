@@ -635,9 +635,10 @@ hr {
     color: #53bae2; 
 }
 
-.username {
+.time-post {
     font-weight: 400;
-    color: rgb(240, 235, 235);
+    color: rgb(175, 169, 169);
+    cursor: pointer;
 }
 
 .user a {
