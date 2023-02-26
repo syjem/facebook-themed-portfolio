@@ -357,6 +357,15 @@ hr {
     font-weight: 500;
 }
 
+.h2-name a {
+    color: rgb(228, 230, 235);
+    border-bottom: 2px solid #4d3538;
+}
+
+.h2-name a:hover {
+    border: none;
+}
+
 .fw {
     font-weight: 300;
 }
@@ -398,8 +407,6 @@ hr {
     gap: 10px;
 }
 
-
-
 .bg-c {
     background-color: #EB455F;
     padding: 10px 20px;
@@ -414,34 +421,32 @@ hr {
     background-color: #F94A29;
 }
 
-
 .photos-header {
     display: flex;
-    padding-left: 10px;
-    padding-bottom: 10px;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
-.photos-header a {
-    color: #e4e6eb;
-}
-
-.photos-header a .pho:hover{
+.photos-header .photos-text:hover{
     text-decoration: underline;
 }
 
-.photos-header a .bl:hover {
+.photos-header .see-all:hover {
     background-color: #424242;
 }
 
-.pho {
-    padding: 10px 10px 10px 0;
+.photos-text {
+    margin: 10px;
+    font-weight: 300;
+    cursor: pointer;
 }
 
-.bl {
-    padding: 10px;
+.see-all {
+    padding: 13px 10px 10px 10px;
     color: #4599ff;
     border-radius: 5px;
+    font-weight: 300;
+    cursor: pointer;
 }
 
 .mini {
