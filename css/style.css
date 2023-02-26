@@ -733,6 +733,10 @@ hr {
     font-size: 14px;
 }
 
+.engagements i {
+    cursor: pointer;
+}
+
 .ml {
     margin-left: 5px;
     font-size: 13px;
@@ -745,6 +749,8 @@ hr {
 .million {
     padding-left: 5px;
     font-size: 14px;
+    color: rgb(228, 230, 235);
+    cursor: pointer;
 }
 
 .million:hover {
