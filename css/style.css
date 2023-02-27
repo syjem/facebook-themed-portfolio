@@ -378,28 +378,40 @@ hr {
     display: flex;
     flex-direction: column;
     text-align: start;
-    padding: 10px;
+    color: white;
+    width: 100%;
+    background-color: var(--box-color);
+    border-radius: var(--box-border-rad);
 }
 
 .educ {
     display: flex;
     justify-content: flex-start;
     font-weight: 300;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-top-right-radius: var(--box-border-rad);
+    border-top-left-radius: var(--box-border-rad);
 }
 
-.fa-graduation-cap {
-    padding: 0 10px 0 0;
+.educ-div {
+    background-color: #D61355;
+    font-size: 17px;
 }
 
-.hobbies {
+.degree {
+    padding: 20px;
+    font-size: 15px;  
+}
+
+.skills {
     display: flex;
     flex-direction: column;
     text-align: start;
     padding: 10px;
 }
 
-.hobbies-container {
+.skills-container {
     flex-wrap: wrap;
     display: flex;
     text-align: start;
@@ -407,18 +419,64 @@ hr {
     gap: 10px;
 }
 
-.bg-c {
-    background-color: #EB455F;
+.skill {
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.music {
-    background-color: #FF0032;
+.skill:hover {
+    box-shadow: 2px 2px 3px #1f0307, -1px -1px 2px #1f0307;
+    background-color: #2f3031;
+    font-size: 14px;
 }
 
-.anime {
-    background-color: #F94A29;
+.html {
+    border: 2px solid #EB455F;
+}
+
+.html:hover {
+    color: #EB455F;
+}
+
+.css {
+    border: 2px solid #FF0032;
+}
+
+.css:hover {
+    color: #FF0032;
+}
+
+.js {
+   border: 2px solid #D61355;
+}
+
+.js:hover {
+    color: #ff6397;
+}
+
+.cpp {
+    border: 2px solid #faa21e;
+}
+
+.cpp:hover {
+    color: #faa21e;
+}
+
+.git {
+    border: 2px solid #F94A29;
+}
+
+.git:hover {
+    color: #F94A29;
+}
+
+.jquery {
+    border: 2px solid #eb52a3;
+}
+
+.jquery:hover {
+    color: #eb52a3;
 }
 
 .photos-header {
