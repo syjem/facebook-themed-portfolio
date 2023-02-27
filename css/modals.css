@@ -145,9 +145,12 @@ body {
     color:  red;
     cursor: pointer;
     top: 50px;
-    right: 330px;
+    right: 200px;
     position: absolute;
+}
 
+.slider-box #x-mark:active {
+    opacity: 0.5;
 }
 
 .main-slider {
@@ -171,8 +174,8 @@ body {
 #images-slider {
     width: 70%;
     height: 100%;
-    border: 1px solid white;
     position: relative;
+    border: 2px solid rgb(245, 239, 239);
 }
 
 .img-slider{
@@ -185,12 +188,21 @@ body {
 
 
 #prev, #next {
-    margin: auto 10px;
-    font-size: 55px;
+    margin: auto auto;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(19, 17, 13);
+    font-size: 35px;
     cursor: pointer;
-    color: black;
+    color: rgb(142, 189, 192);
 }
 
 #prev:hover, #next:hover {
-    color: rgb(12, 12, 12);
+    color: rgb(14, 185, 197);
+    background-color: rgb(1, 27, 29);
+    transform: scale(0.95);
+}
+
+#prev:active, #next:active {
+    color: rgb(216, 9, 61);
 }
