@@ -395,7 +395,7 @@ hr {
 }
 
 .educ-div {
-    background-color: #D61355;
+    background-color: #ec2064;
     font-size: 17px;
 }
 
@@ -408,14 +408,22 @@ hr {
     display: flex;
     flex-direction: column;
     text-align: start;
-    padding: 10px;
+    color: white;
+    width: 100%;
+    background-color: var(--box-color);
+    border-radius: var(--box-border-rad);
+}
+
+.skills-div {
+    background-color: #f33e58;
+    font-size: 17px;
 }
 
 .skills-container {
     flex-wrap: wrap;
     display: flex;
     text-align: start;
-    padding: 10px;
+    padding: 20px;
     gap: 10px;
 }
 
