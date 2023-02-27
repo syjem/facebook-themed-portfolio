@@ -61,6 +61,10 @@ $(function() {
 
 
     // Open slider when clicked
+    $(".photos-text, .see-all").on("click", function() {
+        $("#slider-box").show();
+    });
+
     $(".mini").on("click", function() {
         var index = $(this).index();
         slideIndex = index + 1;
