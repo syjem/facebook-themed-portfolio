@@ -35,7 +35,6 @@ $(function() {
 
 
     // Slider images
-
     var slideIndex = 1;
     showSlides(slideIndex);
     
@@ -61,10 +60,12 @@ $(function() {
     }
 
 
-    // AJAX slider
-
+    // Open slider when clicked
     $(".mini").on("click", function() {
+        var index = $(this).index();
+        slideIndex = index + 1;
         $("#slider-box").show();
+        showSlides(slideIndex);
     });
 
     $("#x-mark").on("click", function() {
