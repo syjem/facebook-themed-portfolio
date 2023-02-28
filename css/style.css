@@ -255,30 +255,6 @@ input[type="search"]::-webkit-search-decoration {
     visibility: visible;
 }
 
-/* #img {
-    margin-top: 12px;
-} */
-
-
-#facebook:hover, #facebook:active {
-    color: #1d65f3;
-}
-
-#twitter:hover, #twitter:active {
-    color: #4e86db;
-}
-
-#telegram:hover, #telegram:active {
-    color: #53bae2;
-}
-
-#linked-in:hover, #linked-in:active {
-    color: rgb(0, 204, 255);
-}
-
-#github:hover, #github:active {
-    color: #e78585;
-}
 
 
 /* MAIN */
