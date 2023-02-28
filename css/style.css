@@ -668,8 +668,8 @@ hr {
 }
 
 .certificate {
-    width: 50%;
-    border: 1px solid white;
+    width: 100%;
+    height: 450px;
 }
 
 .video {
@@ -679,11 +679,6 @@ hr {
 
 .kim {
     width: 50%;
-}
-
-.hacker {
-    width: 100%;
-    height: 500px;
 }
 
 .blue {
