@@ -274,7 +274,7 @@ input[type="search"]::-webkit-search-decoration {
 /*Main Profile */
 
 #aside-left {
-    flex: 25%;
+    flex-basis: 25%;
     margin: 30px 0 30px 0;
     display: flex;
     row-gap: 10px;
@@ -522,9 +522,9 @@ hr {
 /* Main Content */
 
 .main-content {
-    flex: 50%;
+    flex-basis: 45%;
     width: 100%;
-    margin: 30px 0;
+    margin: 30px 50px;
     row-gap: 10px;
     display: flex;
     flex-direction: column;
@@ -837,11 +837,13 @@ hr {
 }
 
 
+
+
 .side {
     display: flex;
     flex-direction: column;
-    flex: 25%;
-    margin: 30px 0 30px 0;
+    flex-basis: 25%;
+    margin: 30px 0;
     row-gap: 10px;
 }
 
