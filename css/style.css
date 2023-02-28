@@ -133,10 +133,6 @@ input[type="search"]::-webkit-search-decoration {
     background-color: rgb(38, 57, 70);
 }
 
-.main-link:active {
-    color: #f33e58;
-}
-
 .active {
     color: #f33e58;
     border-bottom: 1px solid #f33e58;
