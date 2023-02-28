@@ -125,8 +125,12 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .main-link {
-    padding: 10px 45px;
+    padding: 10px 40px;
     border-radius: var(--box-border-rad);
+}
+
+.main-link:hover {
+    background-color: rgb(38, 57, 70);
 }
 
 .main-link:active {
@@ -135,7 +139,12 @@ input[type="search"]::-webkit-search-decoration {
 
 .active {
     color: #f33e58;
-    background-color: rgb(38, 57, 70);
+    border-bottom: 1px solid #f33e58;
+    border-radius: 0px;
+}
+
+.active:hover {
+    background-color: var(--box-color);
 }
 
 .right-nav {
