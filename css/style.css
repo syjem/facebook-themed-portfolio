@@ -685,8 +685,9 @@ hr {
     height: 100%;
 }
 
-.wanda {
-    width: 32.90%;
+.certificate {
+    width: 50%;
+    border: 1px solid white;
 }
 
 .video {
