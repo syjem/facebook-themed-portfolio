@@ -441,51 +441,51 @@ hr {
 }
 
 .html {
-    border: 2px solid #EB455F;
+    border: 1px solid #EB455F;
 }
 
 .html:hover {
-    color: #EB455F;
+    background-color: #883542;
 }
 
 .css {
-    border: 2px solid #FF0032;
+    border: 1px solid #FF0032;
 }
 
-.css:hover {
-    color: #FF0032;
+.css:hover { 
+    background-color: #501a25;
 }
 
 .js {
-   border: 2px solid #D61355;
+   border: 1px solid #D61355;
 }
 
 .js:hover {
-    color: #ff6397;
+    background-color: #8d2c4b;
 }
 
 .cpp {
-    border: 2px solid #faa21e;
+    border: 1px solid #faa21e;
 }
 
 .cpp:hover {
-    color: #faa21e;
+    background-color: #6e532a;
 }
 
 .git {
-    border: 2px solid #F94A29;
+    border: 1px solid #F94A29;
 }
 
 .git:hover {
-    color: #F94A29;
+    background-color: #8f483a;
 }
 
-.jquery {
-    border: 2px solid #eb52a3;
+.jQuery {
+    border: 1px solid #eb52a3;
 }
 
-.jquery:hover {
-    color: #eb52a3;
+.jQuery:hover {
+    background-color: #703957;
 }
 
 .photos-header {
