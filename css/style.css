@@ -116,10 +116,20 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .main-nav {
-
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main-link {
+    padding: 10px 50px;
+    border-radius: var(--box-border-rad);
+}
+
+.main-link:hover {
+    background-color: #2f3031;
 }
 
 .right-nav {
@@ -145,16 +155,6 @@ input[type="search"]::-webkit-search-decoration {
 
 .side-pic:hover {
     opacity: 0.8;
-}
-
-.bg {
-    padding: 12px 40px;
-    border-radius: 10px;
-    transition: background-color 0.3s;
-}
-
-.bg:hover {
-    background-color: #373738;
 }
 
 .nav-side {
