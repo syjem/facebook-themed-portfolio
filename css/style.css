@@ -124,12 +124,17 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .main-link {
-    padding: 10px 50px;
+    padding: 10px 45px;
     border-radius: var(--box-border-rad);
 }
 
-.main-link:hover {
-    background-color: #2f3031;
+.main-link:active {
+    color: #f33e58;
+}
+
+.active {
+    color: #f33e58;
+    background-color: rgb(38, 57, 70);
 }
 
 .right-nav {
