@@ -3,6 +3,7 @@
 :root {
     --box-color: #242526;
     --box-border-rad: 10px;
+    --color1: #e64eac;
 }
 
 * {
@@ -389,14 +390,17 @@ hr {
     justify-content: flex-start;
     font-weight: 300;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 10px 20px;
     border-top-right-radius: var(--box-border-rad);
     border-top-left-radius: var(--box-border-rad);
 }
 
 .educ-div {
-    background-color: #ec2064;
+    color: var(--color1);
     font-size: 17px;
+    background-color: #353434;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgb(29, 27, 27);
 }
 
 .degree {
@@ -415,7 +419,9 @@ hr {
 }
 
 .skills-div {
-    background-color: #f33e58;
+    color: var(--color1);
+    background-color: #353434;
+    box-shadow: 3px 3px 5px rgb(29, 27, 27);
     font-size: 17px;
 }
 
