@@ -68,14 +68,14 @@ body {
     padding: 0 5px 5px 5px;
 }
 
-.search-personalities {
+#projects {
     width: 100%;
     display: flex;
     padding: 7px 10px;
     border-radius: 10px;
 }
 
-.search-personalities:hover {
+#projects:hover {
     background-color: #343738;
     cursor: pointer;
 }
@@ -86,22 +86,22 @@ body {
     gap: 10px;
 }
 
-.search-infos {
+.project-infos {
     display: flex;
     flex-direction: column;
     gap: 5px; 
 }
 
-.search-name, .search-friend {
+.project-name, .project-status {
     color: beige;
     font-weight: 200;
 }
 
-.search-name {
+.project-name {
     padding-top: 3px;
 }
 
-.search-friend {
+.project-status {
     font-size: 12px;
     color: rgb(172, 172, 164);
 }
