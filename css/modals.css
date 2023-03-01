@@ -68,14 +68,14 @@ body {
     padding: 0 5px 5px 5px;
 }
 
-#projects {
+.projects {
     width: 100%;
     display: flex;
     padding: 7px 10px;
     border-radius: 10px;
 }
 
-#projects:hover {
+.projects:hover {
     background-color: #343738;
     cursor: pointer;
 }
