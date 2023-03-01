@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital@0;1&display=swap');
 
 :root {
     --box-color: #242526;
@@ -215,4 +216,40 @@ body {
 
 #prev:active, #next:active {
     color: rgb(216, 9, 61);
+}
+
+
+/* Tooltips for Main Nav */
+
+.title {
+    font-family: 'Labrada', serif;
+    color: #FCFFE7;
+    position: absolute;
+    font-size: 12px;
+    top: 75px;
+    padding: 10px 15px;
+    background-color: #2E3840;
+    border-radius: 5px; 
+    display: none;
+    z-index: 1;
+}
+
+.tool-home {
+    left: 405px;
+}
+
+.tool-about {
+    left: 517px;
+}
+
+.tool-portfolio {
+    left: 622px;
+}
+
+.tool-contact {
+    right: 520px;
+}
+
+.tool-testimonials {
+    right: 383px;
 }
