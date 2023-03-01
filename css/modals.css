@@ -234,20 +234,40 @@ body {
     z-index: 1;
 }
 
+.home:hover + .tool-home {
+    display: block;
+}
+
 .tool-home {
     left: 405px;
+}
+
+.about:hover + .tool-about {
+    display: block;
 }
 
 .tool-about {
     left: 517px;
 }
 
+.portfolio:hover + .tool-portfolio {
+    display: block;
+}
+
 .tool-portfolio {
     left: 622px;
 }
 
+.contact:hover + .tool-contact {
+    display: block;
+}
+
 .tool-contact {
     right: 520px;
+}
+
+.testimonials:hover + .tool-testimonials {
+    display: block;
 }
 
 .tool-testimonials {
