@@ -890,4 +890,25 @@ hr {
     background-color: #707274;
 }
 
+.new-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
+
+.fa-pen-to-square {
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    background-color: #4c4c4d;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 3px 3px #080808, -2px -1px 2px #080808;
+}
+
+.fa-pen-to-square:hover {
+    background-color: #5e5e64;
+}
+
 
