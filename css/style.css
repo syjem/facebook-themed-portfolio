@@ -3,7 +3,7 @@
 :root {
     --box-color: #242526;
     --box-border-rad: 10px;
-    --color1: #f33e58;
+    --color1: #23bbe1;
 }
 
 * {
@@ -456,7 +456,7 @@ hr {
 
 .see-all {
     padding: 13px 10px 10px 10px;
-    color: #4599ff;
+    color: var(--color1);
     border-radius: 5px;
     font-weight: 300;
     cursor: pointer;
@@ -647,7 +647,7 @@ hr {
 }
 
 .blue {
-    color: #53bae2; 
+    color: var(--color1);
 }
 
 .time-post {
@@ -688,7 +688,7 @@ hr {
 }
 
 .fa-circle-check {
-    color: rgb(45, 163, 231);
+    color: var(--color1);
     position: relative;
     bottom: 2.5px;
     margin-left: 5px;
@@ -869,25 +869,25 @@ hr {
 .accept-btn {
     border: none;
     padding: 10px 30px;
-    background-color: #2374e1;
+    background-color: var(--color1);
     border-radius: 5px;
 }
 
 .accept-btn:hover {
     cursor: pointer;
-    background-color: #4888db;
+    background-color: #20a4c5;
 }
 
 .delete-btn {
     border: none;
     padding: 10px 30px;
-    background-color: #545657;
+    background-color: #727679;
     border-radius: 5px;
 }
 
 .delete-btn:hover {
     cursor: pointer;
-    background-color: #707274;
+    background-color: #5f6264;
 }
 
 .new-message {

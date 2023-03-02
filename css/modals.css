@@ -4,6 +4,7 @@
 :root {
     --box-color: #242526;
     --box-border-rad: 10px;
+    --color1: #23bbe1;
 }
 
 * {
@@ -310,7 +311,7 @@ body {
 
 .fa-xmark {
     font-size: 25px;
-    color: rgb(0, 183, 255);
+    color: var(--color1);
     padding: 5px 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -335,21 +336,23 @@ label {
 }
 
 #to {
-    width: 45%;
+    width: 43%;
     padding: 10px;
     padding-left: 10px;
     background-color: #2d4153;
     border: none;
     border-radius: 5px;
     color: #53a2ec;
+    cursor: pointer;
 }
 
 .span-times {
     position: relative;
     font-size: 20px;
-    left: -32px;
+    left: -25px;
     top: 1px;
     color: #53a2ec;
+    cursor: pointer;
 }
 
 #from {
