@@ -281,13 +281,19 @@ body {
 /* New Message */
 
 .new-chat-container {
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
     border-radius: var(--box-border-rad);
     background-color: var(--box-color);
-    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
-    width: 100%;
+    border: 1px solid #323436;
+    width: 25%;
     height: 465px;
     display: flex;
     flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    z-index: 1;
+    display: none;
 }
 
 .new-chat-header {
