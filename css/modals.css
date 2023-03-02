@@ -282,9 +282,13 @@ body {
 
 .new-chat-container {
     font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
-    border-radius: var(--box-border-rad);
+    border-top-left-radius: var(--box-border-rad);
+    border-top-right-radius: var(--box-border-rad);
     background-color: var(--box-color);
-    border: 1px solid #323436;
+    border-top: 1px solid #323436;
+    border-left: 1px solid #323436;
+    border-right: 1px solid #323436;
+    border-bottom: none;
     width: 25%;
     height: 465px;
     display: flex;
@@ -342,23 +346,13 @@ label {
 }
 
 #to {
-    width: 43%;
+    width: 37%;
     padding: 10px;
     padding-left: 10px;
     background-color: #2d4153;
     border: none;
     border-radius: 5px;
-    color: #53a2ec;
-    cursor: pointer;
-}
-
-.span-times {
-    position: relative;
-    font-size: 20px;
-    left: -25px;
-    top: 1px;
-    color: #53a2ec;
-    cursor: pointer;
+    color: var(--color1);
 }
 
 #from {
