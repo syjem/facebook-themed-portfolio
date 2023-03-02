@@ -135,8 +135,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .active {
-    color: #f33e58;
-    border-bottom: 2px solid #f33e58;
+    color: var(--color1);
+    border-bottom: 2px solid var(--color1);
     border-radius: 0px;
 }
 
@@ -559,7 +559,7 @@ hr {
     padding: 10px 40px;
     border-radius: 10px;
     font-size: 20px;
-    color: #f33e58;
+    color: var(--color1);
     cursor: pointer;
 }
 
