@@ -291,7 +291,7 @@ body {
 
 .new-chat-header {
     width: 100%;
-    height: 160px;
+    height: 150px;
     box-shadow: 0px 1px 1px #3c3d41;
 }
 
@@ -300,7 +300,7 @@ body {
     justify-content: space-between;
     color: white;
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }
 
 .text-drop {
@@ -350,10 +350,9 @@ body {
 #from {
     width: 90%;
     padding: 10px;
-    background-color: #222527;
+    background-color: #242526;
     color: white;
     border-radius: 5px;
-    border: 1px solid #2e3031;
+    border: 1px solid #4b3d3d;
     /* box-shadow: 0px 1px 1px black; */
-    padding-left: 10px;
 }
