@@ -181,92 +181,52 @@ input[type="search"]::-webkit-search-decoration {
     background-color: #4c4c4d;
 }
 
-.tooltip-menu {
+.tooltip {
     font-family: 'Labrada', serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 13px;
     background-color: #fcf6f6;
-    color: #0a0a0a;
-    text-align: center;
+    color: #000000;
     border-radius: 6px;
     position: absolute;
     padding: 10px 15px;
     z-index: 1;
     top: 70px;
     opacity: 0.7;
+    visibility: hidden;
+}
+
+#menu:hover + .tool-menu {
+    visibility: visible;
+}
+
+.tool-menu {
     right: 190px;
-    visibility: hidden;
 }
 
-#menu:hover + .tooltip-menu {
+#messenger:hover + .tool-messenger {
     visibility: visible;
 }
 
-.tooltip-messenger {
-    font-family: 'Labrada', serif;
-    font-weight: 300;
-    font-size: 13px;
-    background-color: #fcf6f6;
-    color: #0a0a0a;
-    text-align: center;
-    border-radius: 6px;
-    position: absolute;
-    padding: 10px;
-    z-index: 1;
-    top: 70px;
-    opacity: 0.7;
-    right: 120px;
-    visibility: hidden;
+.tool-messenger {
+    right: 118px;
 }
 
-#messenger:hover + .tooltip-messenger {
+#bell:hover + .tool-bell {
     visibility: visible;
 }
 
-
-
-.tooltip-bell {
-    font-family: 'Labrada', serif;
-    font-weight: 300;
-    font-size: 13px;
-    background-color: #fcf6f6;
-    color: #0a0a0a;
-    text-align: center;
-    border-radius: 6px;
-    position: absolute;
-    padding: 10px;
-    z-index: 1;
-    top: 70px;
+.tool-bell {
     right: 57px;
-    opacity: 0.7;
-    visibility: hidden;
-}
+}   
 
-#bell:hover + .tooltip-bell {
+#profile:hover + .tool-profile {
     visibility: visible;
 }
 
-.tooltip-profile {
-    font-family: 'Labrada', serif;
-    font-weight: 300;
-    font-size: 13px;
-    background-color: #fcf6f6;
-    color: #0a0a0a;
-    text-align: center;
-    border-radius: 6px;
-    position: absolute;
-    padding: 10px 15px;
-    z-index: 1;
-    top: 70px;
-    right: 15px;
-    opacity: 0.7;
-    visibility: hidden;
+.tool-profile {
+    right: 18px;
 }
-
-#profile:hover + .tooltip-profile {
-    visibility: visible;
-}
-
 
 
 /* MAIN */
