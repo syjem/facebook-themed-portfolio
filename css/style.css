@@ -3,7 +3,7 @@
 :root {
     --box-color: #242526;
     --box-border-rad: 10px;
-    --color1: #e64eac;
+    --color1: #f33e58;
 }
 
 * {
@@ -339,7 +339,7 @@ hr {
     font-size: 17px;
     background-color: #353434;
     width: 100%;
-    box-shadow: 3px 3px 5px rgb(29, 27, 27);
+    box-shadow: 0px 1px 1px #191a1b;
 }
 
 .degree {
@@ -360,7 +360,7 @@ hr {
     padding: 10px 20px;
     color: var(--color1);
     background-color: #353434;
-    box-shadow: 3px 3px 5px rgb(29, 27, 27);
+    box-shadow: 0px 1px 1px #191a1b;
     font-size: 17px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
