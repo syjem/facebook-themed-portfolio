@@ -320,13 +320,18 @@ body {
     background-color: #3d5048;
 }
 
+label {
+    width: 10%;
+    padding-top: 5px;
+}
+
 .to-from {
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
-    gap: 10px;
-    padding: 10px 10px 10px 15px;
+    gap: 5px;
+    padding: 10px 10px 0px 15px;
 }
 
 #to {
