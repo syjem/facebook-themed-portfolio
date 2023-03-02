@@ -232,6 +232,7 @@ body {
     border-radius: 5px; 
     display: none;
     z-index: 1;
+    opacity: 0.8;
 }
 
 .home:hover + .tool-home {

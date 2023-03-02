@@ -21,14 +21,14 @@ body {
 
 .header {
     background-color: #242526;
-    padding: 20px 20px 0 20px;
+    padding: 10px 20px 0 20px;
     display: flex;
     justify-content: space-between;
     position: fixed;
     width: 100%;
     top: 0;
     gap: 10px;
-    height: 90px;
+    height: 70px;
     z-index: 1;
 }
 
@@ -121,7 +121,7 @@ input[type="search"]::-webkit-search-decoration {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .main-link {
@@ -135,7 +135,7 @@ input[type="search"]::-webkit-search-decoration {
 
 .active {
     color: #f33e58;
-    border-bottom: 1px solid #f33e58;
+    border-bottom: 2px solid #f33e58;
     border-radius: 0px;
 }
 
@@ -147,6 +147,7 @@ input[type="search"]::-webkit-search-decoration {
     flex-basis: 25%;
     display: flex;
     justify-content: flex-end;
+    padding-top: 10px;
 }
 
 .right-side-nav {
@@ -157,8 +158,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .side-pic {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     margin-top: 2px;
     cursor: pointer;
@@ -181,7 +182,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .tooltip-menu {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Labrada', serif;
     font-weight: 300;
     font-size: 13px;
     background-color: #fcf6f6;
@@ -191,7 +192,7 @@ input[type="search"]::-webkit-search-decoration {
     position: absolute;
     padding: 10px 15px;
     z-index: 1;
-    bottom: -15px;
+    top: 70px;
     opacity: 0.7;
     right: 190px;
     visibility: hidden;
@@ -202,7 +203,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .tooltip-messenger {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Labrada', serif;
     font-weight: 300;
     font-size: 13px;
     background-color: #fcf6f6;
@@ -212,7 +213,7 @@ input[type="search"]::-webkit-search-decoration {
     position: absolute;
     padding: 10px;
     z-index: 1;
-    bottom: -15px;
+    top: 70px;
     opacity: 0.7;
     right: 120px;
     visibility: hidden;
@@ -225,7 +226,7 @@ input[type="search"]::-webkit-search-decoration {
 
 
 .tooltip-bell {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Labrada', serif;
     font-weight: 300;
     font-size: 13px;
     background-color: #fcf6f6;
@@ -235,7 +236,7 @@ input[type="search"]::-webkit-search-decoration {
     position: absolute;
     padding: 10px;
     z-index: 1;
-    bottom: -15px;
+    top: 70px;
     right: 57px;
     opacity: 0.7;
     visibility: hidden;
@@ -246,7 +247,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .tooltip-profile {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Labrada', serif;
     font-weight: 300;
     font-size: 13px;
     background-color: #fcf6f6;
@@ -256,7 +257,7 @@ input[type="search"]::-webkit-search-decoration {
     position: absolute;
     padding: 10px 15px;
     z-index: 1;
-    bottom: -15px;
+    top: 70px;
     right: 15px;
     opacity: 0.7;
     visibility: hidden;
@@ -274,7 +275,7 @@ input[type="search"]::-webkit-search-decoration {
     width: 100%;
     display: flex;
     gap: 10px;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 /*Main Profile */
