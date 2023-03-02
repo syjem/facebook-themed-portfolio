@@ -265,7 +265,7 @@ body {
 }
 
 .tool-contact {
-    right: 520px;
+    right: 400px;
 }
 
 .testimonials:hover + .tool-testimonials {
@@ -273,5 +273,5 @@ body {
 }
 
 .tool-testimonials {
-    right: 383px;
+    right: 500px;
 }
