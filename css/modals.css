@@ -368,18 +368,30 @@ label {
 
 .chat-area {
     overflow-y: scroll;
-    overflow-x: hidden;
     height: 270px;
     position: relative;
-    color: #0fdd7d;
+    color: #FCFFE7;
 }
 
 .messages {
     margin-top: 10px;
-    width: 50%;
-    height: auto;
+    width: 70%;
     position: absolute;
     right: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    min-height: 130px;
+} 
+
+.msg {
+    padding: 10px;
+    background-color: #425155;
+    border-radius: 15px;
+    align-self: flex-end;
+    height: auto;
 }
 
 .chat-area::-webkit-scrollbar {
@@ -391,7 +403,7 @@ background-color: #55665e;
 }
 
 .chat-area::-webkit-scrollbar-thumb {
-background-color: #0f0202;
+background-color: #333232;
 }
 
 /* For Firefox */
@@ -420,14 +432,15 @@ background-color: #333;
 
 .image-title {
     margin-top: 20px;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
 
 .work-title {
     color: #a8a897;
     font-size: 14px;
+    text-align: center;
 }
 
 .chat-info {
