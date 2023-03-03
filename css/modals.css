@@ -371,6 +371,15 @@ label {
     overflow-x: hidden;
     height: 270px;
     position: relative;
+    color: #0fdd7d;
+}
+
+.messages {
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    right: 0;
 }
 
 .chat-area::-webkit-scrollbar {
