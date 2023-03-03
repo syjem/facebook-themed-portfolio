@@ -368,6 +368,7 @@ label {
 
 .chat-area {
     overflow-y: scroll;
+    overflow-x: hidden;
     height: 270px;
     position: relative;
 }
