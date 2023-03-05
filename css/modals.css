@@ -352,7 +352,7 @@ label {
     background-color: #242526;
     color: white;
     border-radius: 5px;
-    border: 1px solid #4b3d3d;
+    border: 1px solid var(--color1);
 }
 
 #to {
