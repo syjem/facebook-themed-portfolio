@@ -261,14 +261,6 @@ body {
     left: 622px;
 }
 
-.contact:hover + .tool-contact {
-    display: block;
-}
-
-.tool-contact {
-    right: 400px;
-}
-
 .testimonials:hover + .tool-testimonials {
     display: block;
 }
