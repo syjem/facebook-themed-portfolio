@@ -152,10 +152,29 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .right-side-nav {
-    width: 70%;
+    width: 100%;
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 5%;
+    border: 1px solid red;
+}
+
+.right-side-nav li {
+    border: 1px solid blueviolet;
+}
+
+.nav-side {
+    background-color: #373738;
+    padding: 12px;
+    border-radius: 50%;
+    color: rgb(228, 230, 235);
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+.nav-side:hover {
+    background-color: #4c4c4d;
 }
 
 .side-pic {
@@ -170,64 +189,53 @@ input[type="search"]::-webkit-search-decoration {
     opacity: 0.8;
 }
 
-.nav-side {
-    background-color: #373738;
-    padding: 12px;
-    border-radius: 50%;
-    color: rgb(228, 230, 235);
-    cursor: pointer;
-}
-
-.nav-side:hover {
-    background-color: #4c4c4d;
-}
-
 .tooltip {
+    display: none;
     font-family: 'Labrada', serif;
     font-weight: 500;
     font-size: 13px;
     background-color: #fcf6f6;
     color: #000000;
     border-radius: 6px;
-    position: absolute;
+    position: relative;
     padding: 10px 15px;
     z-index: 1;
-    top: 70px;
-    opacity: 0.7;
-    visibility: hidden;
+    top: 15px;
+    opacity: 0.7; 
 }
 
-#menu:hover + .tool-menu {
-    visibility: visible;
+#menu:hover ~ .tool-menu {
+    display: block !important;
+    position: absolute;
 }
 
-.tool-menu {
-    right: 190px;
-}
+/* .tool-menu {
+    right: 10px;
+} */
 
 #messenger:hover + .tool-messenger {
-    visibility: visible;
+    display: block;
 }
 
-.tool-messenger {
-    right: 118px;
-}
+/* .tool-messenger {
+    right: 20px;
+} */
 
 #bell:hover + .tool-bell {
-    visibility: visible;
+    display: block;
 }
 
-.tool-bell {
+/* .tool-bell {
     right: 57px;
-}   
+}    */
 
 #profile:hover + .tool-profile {
-    visibility: visible;
+    display: block;
 }
 
-.tool-profile {
+/* .tool-profile {
     right: 18px;
-}
+} */
 
 
 /* MAIN */
