@@ -225,9 +225,9 @@ body {
 .title {
     font-family: 'Labrada', serif;
     color: #FCFFE7;
-    position: absolute;
+    position: relative;
     font-size: 12px;
-    top: 75px;
+    top: 15px;
     padding: 10px 15px;
     background-color: #2E3840;
     border-radius: 5px; 
@@ -241,33 +241,19 @@ body {
     display: block;
 }
 
-.tool-home {
-    left: 405px;
-}
-
 .about:hover + .tool-about {
     display: block;
-}
-
-.tool-about {
-    left: 517px;
 }
 
 .portfolio:hover + .tool-portfolio {
     display: block;
 }
 
-.tool-portfolio {
-    left: 622px;
-}
 
 .testimonials:hover + .tool-testimonials {
     display: block;
 }
 
-.tool-testimonials {
-    right: 500px;
-}
 
 
 /* New Message */
