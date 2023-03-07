@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital@0;1&display=swap');
+
+:root {
+    --box-color: #242526;
+    --box-border-rad: 10px;
+    --color1: #23bbe1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #18191a;
+}
+
+
+
+/* Wide Screens */
+
+@media screen and (min-width: 1420px) {
+    .main {
+        width: 90%;
+        margin: 70px auto;
+    }
+}
+
+@media screen and (min-width: 1620px) {
+    .main {
+        width: 80%;
+        margin: 70px auto;
+    }
+}
+
+@media screen and (min-width: 1820px) {
+    .main {
+        width: 75%;
+        margin: 70px auto;
+    }
+}
+
+@media screen and (min-width: 1980px) {
+    .main {
+        width: 67%;
+        margin: 70px auto;
+    }
+}
+
+@media screen and (min-width: 2190px) {
+    .main {
+        width: 50%;
+        margin: 70px auto;
+    }
+}
+
+@media screen and (min-width: 2820px) {
+    .main {
+        width: 33%;
+        margin: 70px auto;
+    }
+}
