@@ -252,7 +252,6 @@ body {
 
 .testimonials:hover + .tool-testimonials {
     display: block;
-    padding-right: 1px;
 }
 
 
