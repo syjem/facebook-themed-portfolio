@@ -194,7 +194,8 @@ input[type="search"]::-webkit-search-decoration {
     position: relative;
     font-size: 12px;
     top: 10px;
-    padding: 10px 15px;
+    padding: 10px;
+    text-align: center;
     background-color: #e4e6eb;
     border-radius: 5px;
     display: none;
@@ -205,22 +206,18 @@ input[type="search"]::-webkit-search-decoration {
 
 .menu:hover + .tool-menu {
     display: block;
-    padding-right: 1px;
 }
 
 .messenger:hover + .tool-messenger {
     display: block;
-    padding-right: 1px;
 }
 
 .bell:hover + .tool-bell {
     display: block;
-    padding-right: 1px;
 }
 
 .pic-link:hover + .tool-profile {
     display: block;
-    padding-right: 1px;
 }
 
 /* MAIN */
