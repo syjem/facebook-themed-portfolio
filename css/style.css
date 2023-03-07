@@ -214,6 +214,7 @@ input[type="search"]::-webkit-search-decoration {
 
 .bell:hover + .tool-bell {
     display: block;
+    font-size: 8px;
 }
 
 .pic-link:hover + .tool-profile {
