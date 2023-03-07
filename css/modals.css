@@ -252,12 +252,6 @@ body {
 }
 
 
-.testimonials:hover + .tool-testimonials {
-    display: block;
-    font-size: 11px;
-}
-
-
 
 /* New Message */
 

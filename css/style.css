@@ -120,7 +120,7 @@ input[type="search"]::-webkit-search-decoration {
 .main-nav {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     padding-top: 20px;
 }
