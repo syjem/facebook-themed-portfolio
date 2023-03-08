@@ -305,6 +305,10 @@ hr {
     padding-right: 10px;
 }
 
+.i-color {
+    color: var(--color1);
+}
+
 .education {
     display: flex;
     flex-direction: column;
@@ -890,12 +894,12 @@ hr {
 
 .fa-pen-to-square {
     font-size: 20px;
-    color: white;
+    color: var(--color1);
     padding: 15px;
     background-color: #4c4c4d;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 2px 3px 3px #080808, -2px -1px 2px #080808;
+    box-shadow: 2px 3px 3px #080808;
 }
 
 .fa-pen-to-square:hover {
