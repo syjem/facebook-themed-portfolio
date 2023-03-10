@@ -371,7 +371,7 @@ hr {
 
 .skill {
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -394,22 +394,22 @@ hr {
 }
 
 .css:hover { 
-    background-color: #501a25;
+    background-color: #7a182c;
 }
 
-.js {
+.sass {
    border: 1px solid #D61355;
 }
 
-.js:hover {
+.sass:hover {
     background-color: #8d2c4b;
 }
 
-.cpp {
+.js {
     border: 1px solid #faa21e;
 }
 
-.cpp:hover {
+.js:hover {
     background-color: #6e532a;
 }
 
@@ -428,6 +428,16 @@ hr {
 .jQuery:hover {
     background-color: #703957;
 }
+
+.react-js {
+    border: 1px solid #62CDFF;
+}
+
+.react-js:hover {
+    background-color: #3a535e;
+}
+
+
 
 .photos-header {
     display: flex;
