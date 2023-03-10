@@ -280,6 +280,7 @@ hr {
     gap: 20px;
     padding: 15px 5%;
 }
+
 .info-icons {
     display: flex;
     flex-direction: column;
@@ -287,6 +288,15 @@ hr {
     text-align: start;
     width: 100%;
     font-size: 17px;
+}
+
+.gmail {
+    color: white;
+}
+
+.gmail:hover {
+    color: var(--color1);
+    text-decoration: underline;
 }
 
 .main-name {
