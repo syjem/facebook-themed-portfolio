@@ -264,7 +264,7 @@ body {
     border-left: 1px solid #323436;
     border-right: 1px solid #323436;
     border-bottom: none;
-    width: 25%;
+    width: 340px;
     height: 465px;
     display: flex;
     flex-direction: column;
