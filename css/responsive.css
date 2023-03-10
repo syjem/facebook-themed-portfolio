@@ -27,12 +27,22 @@ body {
         width: 90%;
         margin: 70px auto;
     }
+
+    .main-nav {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 1620px) {
     .main {
         width: 80%;
         margin: 70px auto;
+    }
+
+    .main-nav {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -41,12 +51,22 @@ body {
         width: 75%;
         margin: 70px auto;
     }
+
+    .main-nav {
+        width: 75%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 1980px) {
     .main {
         width: 67%;
         margin: 70px auto;
+    }
+
+    .main-nav {
+        width: 67%;
+        margin: 0 auto;
     }
 }
 
@@ -55,6 +75,11 @@ body {
         width: 50%;
         margin: 70px auto;
     }
+
+    .main-nav {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 2820px) {
@@ -62,4 +87,12 @@ body {
         width: 33%;
         margin: 70px auto;
     }
+
+    .main-nav {
+        width: 33%;
+        margin: 0 auto;
+    }
 }
+
+
+/* Small Screens */
