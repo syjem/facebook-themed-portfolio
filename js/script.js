@@ -71,7 +71,6 @@ window.onload = function() {
     searchIcon.classList.remove("fa-arrow-left");
   });
 
-
 }
 
 

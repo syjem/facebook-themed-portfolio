@@ -452,7 +452,6 @@ background-color: #333;
     margin-left: 100px;
     margin-bottom: 5px;
     outline: none;
-
     max-height: 100px;
 }
 
@@ -460,7 +459,7 @@ background-color: #333;
     overflow-y: scroll;
 }
 
- #emoji {
+ #like-emoji {
     position: absolute;
     right: 10px;
 }

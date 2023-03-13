@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- Emoji library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css" />
+    
     <title>Jem Sync</title>
 </head>
 <body id="body">
@@ -569,9 +571,9 @@
                 <div class="chat-info">
                     <i class="fa-solid fa-circle-plus"></i>
                     <i class="fa-solid fa-file-image"></i>
-                    <i  class="fa-solid fa-face-smile"></i>
+                    <i id="emoji" class="fa-solid fa-face-smile"></i>
                     <textarea name="chat-input" id="chat-input" cols="23" rows="1" placeholder="Aa"></textarea>
-                    <i id="emoji" class="fa-solid fa-thumbs-up"></i>
+                    <i id="like-emoji" class="fa-solid fa-thumbs-up"></i>
                 </div>
             </div>       
         </aside>
@@ -581,6 +583,8 @@
 
     <script src="js/script.js"></script>
     <script src="lib/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
