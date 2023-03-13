@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Labrada:ital@0;1&display=swap');
-
-:root {
-    --box-color: #242526;
-    --box-border-rad: 10px;
-    --color1: #23bbe1;
-}
+@import url('style.css');
 
 * {
     box-sizing: border-box;
