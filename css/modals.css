@@ -350,7 +350,7 @@ label {
 
 .messages {
     margin-top: 10px;
-    width: 70%;
+    width: 100%;
     position: absolute;
     right: 0;
     padding: 10px;
@@ -359,6 +359,7 @@ label {
     justify-content: flex-end;
     gap: 10px;
     min-height: 130px;
+    overflow: hidden;
 } 
 
 .msg {
@@ -367,6 +368,7 @@ label {
     border-radius: 15px;
     align-self: flex-end;
     height: auto;
+    overflow: hidden;
 }
 
 .chat-area::-webkit-scrollbar {
@@ -374,17 +376,17 @@ label {
   }
   
 .chat-area::-webkit-scrollbar-track {
-background-color: #55665e;
+background-color: #333232;
 }
 
 .chat-area::-webkit-scrollbar-thumb {
-background-color: #333232;
+background-color: #55665e;
 }
 
 /* For Firefox */
 .chat-area {
 scrollbar-width: thin;
-scrollbar-color: #555 #0fdd7d;
+scrollbar-color: #5e5d5d #0fdd7d;
 }
 
 /* For Edge */
@@ -393,7 +395,7 @@ scrollbar-color: #555 #0fdd7d;
 }
 
 .chat-area::-webkit-scrollbar-thumb:hover {
-background-color: #333;
+background-color: #e45f5f;
 }
 
 .new-message-image {
@@ -465,10 +467,7 @@ background-color: #333;
 }
 
 .like-chat {
-    padding: 5px;
-    background-color: #425155;
-    border-radius: 15px;
-    align-self: flex-end;
-    height: auto;
     color: #23bbe1;
+    align-self: flex-end;
+    font-size: 30px;
 }
