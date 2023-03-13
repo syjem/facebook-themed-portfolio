@@ -463,3 +463,12 @@ background-color: #333;
     position: absolute;
     right: 10px;
 }
+
+.like-chat {
+    padding: 5px;
+    background-color: #425155;
+    border-radius: 15px;
+    align-self: flex-end;
+    height: auto;
+    color: #23bbe1;
+}
